@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: cyan;
+}
+
+.inputs input {
+  width: 200px;
+  height: 20px;
+  font-size: 18px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.inputs button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  background-color: darkturquoise;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.inputs button:hover {
+  cursor: pointer;
+}
+
+.friendContainer {
+  display: flex;
+  flex-direction: row;
+
+}
+.listOfFriends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;  
+}
+
+.friend {
+  width: 300px;
+  height: 60px;
+  background-color: darkturquoise;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  margin: 10px;
+}
+
+.friend h3 {
+  margin-left: 15px;
+}
+
+.friendContainer button {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  background-color: rgb(10, 45, 147);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
+}
+
+#delButton {
+  margin-left: 10px;
+}
